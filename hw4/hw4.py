@@ -80,7 +80,7 @@ output.save("dilation.bmp")
 output = erosion(kernel, "binary.bmp")
 output.save("erosion.bmp")
 output = dilation(kernel, "erosion.bmp")
-output.save("openning.bmp")
+output.save("opening.bmp")
 output = erosion(kernel, "dilation.bmp")
 output.save("closing.bmp")
 
