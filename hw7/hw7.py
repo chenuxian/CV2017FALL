@@ -122,8 +122,8 @@ change = 1
 while change == 1:
     change = 0
     mark()
-    for y in range(512):
-        for x in range(512):
+    for x in range(512):
+        for y in range(512):
             if thining_pixels[x, y] == 255:
                 if find_number(x, y) == 1 and mark_arr[x, y] == 3000:
                     thining_pixels[x, y] = 0
